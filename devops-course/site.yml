@@ -1,0 +1,6 @@
+---
+- name: Install and configure MySQL 8.4 on Amazon Linux 2023
+  hosts: dbservers
+  become: true
+  roles:
+    - mysql
