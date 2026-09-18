@@ -2,3 +2,5 @@ venv/
 *.pyc
 __pycache__/
 .env
+.ansible_vault_pass
+*.ansible_vault_pass
