@@ -6,3 +6,10 @@ __pycache__/
 *.ansible_vault_pass
 .vault_pass
 *.vault_pass
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/
+*.tfplan
+*.bin
+scale_lambda-*.zip
