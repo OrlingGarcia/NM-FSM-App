@@ -13,3 +13,4 @@ terraform.tfstate.d/
 *.tfplan
 *.bin
 scale_lambda-*.zip
+instance/
