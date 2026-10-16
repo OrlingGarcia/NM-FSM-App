@@ -120,6 +120,7 @@
     plugin_auth_string: "{{ mysql_app_password }}"
     priv: "{{ mysql_db_name }}.*:ALL"
     state: present
+    update_password: on_create
     login_user: root
     config_file: /root/.my.cnf
     login_unix_socket: "{{ mysql_datadir }}/mysql.sock"
